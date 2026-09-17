@@ -1,0 +1,82 @@
+# ===========================
+# Nested repo / CI dirs
+# ===========================
+backend/.git/
+backend/.github/
+frontend/.git/
+frontend/.github/
+
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+.venv/
+venv/
+venv.bak/
+
+# ===========================
+# Node.js
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+.open-next/
+.vercel/
+
+# ===========================
+# Environment / secrets
+# ===========================
+.env
+.env.*
+!.env.example
+!.env.local.example
+!.env.production
+
+# ===========================
+# Testing / coverage
+# ===========================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage/
+
+# ===========================
+# IDE / OS
+# ===========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs
+# ===========================
+*.log
+uvicorn.log
+uvicorn.err.log
+
+# ===========================
+# Build artifacts
+# ===========================
+*.tsbuildinfo
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
